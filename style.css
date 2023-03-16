@@ -1,5 +1,11 @@
 body {
   background-color: #f0f0eb;
+  overflow: hidden;
+}
+
+nav {
+  --bs-backdrop-opacity: 0;
+  position: inherit;
 }
 
 input {
@@ -8,5 +14,21 @@ input {
 
 ul {
   font-family: "Founders Grotesk", Inter, Helvetica, Arial, sans-serif;
+  color: #275243FF;
+  list-style: none;
 }
 
+input {
+  height: 40px;
+  width: 630px;
+}
+
+.btn {
+  margin-left: -5px;
+  color: green;
+  background-color: white;
+}
+
+h1 {
+  font-size: 60px;
+}
